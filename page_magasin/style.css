@@ -2,7 +2,6 @@
     margin: 2px 1px;
     padding: 0px;
 }
-
 header{
     display: flex;      
 }
@@ -30,14 +29,22 @@ a{
 a:hover{
     text-decoration: underline;
 }
-.mune2 ol li{
+ol li{
     margin-top: 10px;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 15px;
 }
-.mune2 ol{
+ol li h3 a{
+    margin: 10px;
+}
+
+ol{
     display: flex;
+}
+#h3 a{
+    margin-left: 0px;
+
 }
 span{
     margin-top: 10px;
@@ -53,3 +60,28 @@ h1{
 p{
     margin-top: 10px;
 }
+section{
+  
+    display: flex;
+}
+.article{  
+    margin:13px 13px 13px 0px;
+    font-faxmily: Arial, Helvetica, sans-serif;
+   text-align: left;
+    border: solid  rgb(12, 11, 12) ;
+    padding: 10px;   
+}
+.imag1{   
+    height: 180px;
+    width: 230px;
+}
+.article h2 {  
+    font-size: 25px;
+}
+.h4{
+    color:#A0A0A0;
+}
+.ver{
+    color:#699D58;
+}
+
