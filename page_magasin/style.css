@@ -1,6 +1,7 @@
 *{
     margin: 2px 1px;
     padding: 0px;
+    
 }
 header{
     display: flex;      
@@ -45,15 +46,19 @@ ol{
 #h3 a{
     margin-left: 0px;
 }
+.para{
+    
+}
 
-h1{
+.para h1{
     margin-top: 15px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-p{
+.para p{
     margin-top: 10px;
+    
 }
 section{
   
@@ -61,7 +66,7 @@ section{
 }
 .article{  
     margin:13px 13px 13px 0px;
-    font-faxmily: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
    text-align: left;
     border: solid  rgb(12, 11, 12) ;
     padding: 10px;   
