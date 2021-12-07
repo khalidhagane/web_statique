@@ -1,49 +1,45 @@
 *{
     margin: 0;
-    padding: 0;
-    
-}
-.imag{
-text-align: center;
+    padding: 0;  
 }
 header nav ul{
     justify-content: center;
-    }
-.logo{
+}
+nav .imag{
+text-align: center;
+}
+
+nav .logo{
     margin: 10px;
     width: 250px;
     height: 70px;  
 }
 header nav ul {  
     display: flex;
-    margin: 10px; 
-    
+    margin: 10px;   
 }
 header nav ul li{
     border:solid 1px #0C0C0C;
     padding: 7px;
-    list-style: none;
-    
+    list-style: none;  
 }
 nav ul li a {
     text-decoration: none;
     font-size: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
-    font-size: 15px;
-    
+    font-size: 15px;   
 }
-nav ol{
+.mune2 ol{
     display: flex;
 }
-nav ol li a{
+.mune2 ol li a{
     margin: 10px;
     text-decoration: none;
     font-size: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
-    font-size: 15px;
-    
+    font-size: 15px;  
 }
 ol li{
     list-style: none;
@@ -54,13 +50,11 @@ section h1{
 }
 section p {
     margin:10px 7px 10px 7px;
-
 }
-
 article section{
     padding: 5px;
     margin: 10px 7px 15px 7px;
-    border:solid 1px #0C0C0C;
+    border:solid 1px #000000;
     font-family: Arial, Helvetica, sans-serif;
 }
 article section img {
@@ -74,8 +68,36 @@ article section h2{
 .h1{
     color: cadetblue;
     }
-
 .h2{
     color: rgb(233, 60, 95);
     padding-bottom: 14px;
+}
+
+a.link:hover { 
+    text-decoration:underline;
+    color: rgb(40, 37, 221);
+}
+
+
+@media (min-width:750px) {
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px; 
+
+}
+article section img {
+    width: 250px;
+    height: 200px;
+}  
+article section{
+    margin: 15px;
+} 
+nav{
+    display: flex;     
+}
+header nav ul{
+    margin: 30px 10px 30px 120px;    
+}
+
 }
